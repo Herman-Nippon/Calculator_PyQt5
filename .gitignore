@@ -1,0 +1,27 @@
+# Compiled Python files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environment
+venv/
+env/
+
+# PyQt5 compiled UI files
+*.pyc
+*.pyo
+*UI.py
+
+# Compiled resources file
+*.qrc.py
+
+# Ignore PyQt5 generated files
+*.ui~
+
+# Ignore build and distribution directories
+build/
+dist/
+
+# Ignore PyQt5-specific files
+*.pro.user
