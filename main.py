@@ -104,7 +104,7 @@ class MyWindow(QMainWindow):
 
     def button_sqrt_functionality(self):
         contents = self.get_expression()
-        self.text_space.setText(contents + "^" + "0.5")
+        self.text_space.setText(contents + "^0.5" if contents[-1] not in self.mathematical_operations else contents)
 
     # dot and change the sign
     def button_dot_functionality(self):
